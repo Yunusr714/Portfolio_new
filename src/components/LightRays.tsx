@@ -13,8 +13,8 @@ export function LightRays({ className }: { className?: string }) {
   ];
 
   return (
-    <div className={cn("pointer-events-none absolute inset-0 overflow-hidden mix-blend-screen z-0", className)}>
-      <div className="absolute left-1/2 top-[-10%] -translate-x-1/2 w-[150%] h-[120%] flex justify-center">
+    <div className={cn("pointer-events-none absolute inset-0 overflow-hidden z-0", className)}>
+      <div className="absolute left-1/2 top-[-10%] -translate-x-1/2 w-[150%] md:w-[120%] h-[120%] flex justify-center">
         {rays.map((ray, i) => (
           <motion.div
             key={i}
@@ -23,12 +23,13 @@ export function LightRays({ className }: { className?: string }) {
               width: ray.width,
               height: "100%",
               rotate: ray.rotate,
-              filter: "blur(50px)",
+              filter: "blur(24px)", // Reduced blur to eliminate mobile lag
+              willChange: "transform, opacity", // Force GPU acceleration
             }}
             animate={{
               opacity: [ray.opacity * 0.4, ray.opacity, ray.opacity * 0.4],
-              rotate: [ray.rotate - 3, ray.rotate + 3, ray.rotate - 3],
-              scaleY: [0.9, 1.1, 0.9],
+              rotate: [ray.rotate - 2, ray.rotate + 2, ray.rotate - 2],
+              scaleY: [0.95, 1.05, 0.95],
             }}
             transition={{
               duration: ray.duration,
