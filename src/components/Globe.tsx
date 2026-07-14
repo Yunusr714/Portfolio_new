@@ -45,6 +45,7 @@ export function Globe({ className }: { className?: string }) {
       markers: [
         // You can add markers here if needed [long, lat, size]
       ],
+      // @ts-ignore
       onRender: (state) => {
         // This prevents rotation while dragging
         if (!pointerInteracting.current) {
