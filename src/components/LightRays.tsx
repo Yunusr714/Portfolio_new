@@ -14,17 +14,35 @@ export function LightRays({ className }: { className?: string }) {
 
   return (
     <div className={cn("pointer-events-none absolute inset-0 overflow-hidden z-0", className)}>
-      <div className="absolute left-1/2 top-[-10%] -translate-x-1/2 w-[150%] md:w-[120%] h-[120%] flex justify-center">
+      {/* Mobile: Static Rays (No Animation for Performance) */}
+      <div className="md:hidden absolute left-1/2 top-[-10%] -translate-x-1/2 w-[150%] h-[120%] flex justify-center">
+        {rays.map((ray, i) => (
+          <div
+            key={`mobile-${i}`}
+            className="absolute top-0 origin-top bg-gradient-to-b from-white via-white/50 to-transparent"
+            style={{
+              width: ray.width,
+              height: "100%",
+              transform: `rotate(${ray.rotate}deg)`,
+              filter: "blur(24px)",
+              opacity: ray.opacity,
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Desktop: Animated Rays */}
+      <div className="hidden md:flex absolute left-1/2 top-[-10%] -translate-x-1/2 w-[120%] h-[120%] justify-center">
         {rays.map((ray, i) => (
           <motion.div
-            key={i}
+            key={`desktop-${i}`}
             className="absolute top-0 origin-top bg-gradient-to-b from-white via-white/50 to-transparent"
             style={{
               width: ray.width,
               height: "100%",
               rotate: ray.rotate,
-              filter: "blur(24px)", // Reduced blur to eliminate mobile lag
-              willChange: "transform, opacity", // Force GPU acceleration
+              filter: "blur(24px)",
+              willChange: "transform, opacity",
             }}
             animate={{
               opacity: [ray.opacity * 0.4, ray.opacity, ray.opacity * 0.4],
