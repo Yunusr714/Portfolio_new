@@ -14,7 +14,7 @@ const internships = [
       "Collaborated with a cross-functional team of students from different states on case-study based projects, strengthening problem-solving, communication, and teamwork skills.",
       "Participated in regular technical quizzes, code reviews, and viva evaluations, enhancing understanding of full-stack development concepts and software engineering practices."
     ],
-    image: "/iit_ropar_certificate.jpeg" // Replace with your actual image path
+    image: "/Portfolio_new/iit_ropar_certificate.jpeg" // Replace with your actual image path
   },
   {
     role: "Frontend Developer Intern",
@@ -25,7 +25,7 @@ const internships = [
       "Developed responsive web applications and a Scientific Calculator using HTML, CSS, JavaScript, and Bootstrap.",
       "Recreated modern website interfaces and collaborated on team-based frontend projects, improving UI implementation, layout design, and responsive development skills."
     ],
-    image: "/krify_certificate.png" // Replace with your actual image path
+    image: "/Portfolio_new/krify_certificate.png" // Replace with your actual image path
   }
 ];
 

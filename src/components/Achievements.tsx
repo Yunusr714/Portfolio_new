@@ -7,47 +7,47 @@ const achievements = [
   {
     title: "AQVH Semi Final 2025",
     date: "2025",
-    image: "/aqvh semi final 2025.jpeg",
+    image: "/Portfolio_new/aqvh semi final 2025.jpeg",
   },
   {
     title: "AQVH Final 2025",
     date: "2026",
-    image: "/aqvh2025.jpeg",
+    image: "/Portfolio_new/aqvh2025.jpeg",
   },
   {
     title: "Stepcone '26 Quantum Qurukshetra",
     date: "2026",
-    image: "/stepcone 26 quantumn.jpeg",
+    image: "/Portfolio_new/stepcone 26 quantumn.jpeg",
   },
   {
     title: "Stepcone '25 Hackhub",
     date: "2025",
-    image: "/stepcone 25 hackhub.jpeg",
+    image: "/Portfolio_new/stepcone 25 hackhub.jpeg",
   },
   {
     title: "Nxtwave GenAI Hackathon",
     date: "2026",
-    image: "/nxtwave genai.jpeg",
+    image: "/Portfolio_new/nxtwave genai.jpeg",
   },
   {
     title: "Project Expo '25",
     date: "2025",
-    image: "/project expo.jpeg",
+    image: "/Portfolio_new/project expo.jpeg",
   },
   {
     title: "QC^2 SRM University",
     date: "2026",
-    image: "/qc2 srm.jpeg",
+    image: "/Portfolio_new/qc2 srm.jpeg",
   },
   {
     title: "Stepcone '24 Webostav",
     date: "2024",
-    image: "/webostav stepcone 2024.jpeg",
+    image: "/Portfolio_new/webostav stepcone 2024.jpeg",
   },
   {
     title: "Workshop on Web-Dev (ACM)",
     date: "2025",
-    image: "/workshop on web dev.jpeg",
+    image: "/Portfolio_new/workshop on web dev.jpeg",
   },
 ];
 
@@ -60,7 +60,7 @@ export function Achievements() {
       {/* Background Image with Dark Layer Gradients */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-screen pointer-events-none"
-        style={{ backgroundImage: "url('/stars.png')" }} 
+        style={{ backgroundImage: "url('/Portfolio_new/Portfolio_new/stars.png')" }} 
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />

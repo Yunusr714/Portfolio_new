@@ -7,32 +7,32 @@ const certifications = [
   {
     title: "Quantum Computing",
     issuer: "NPTEL",
-    image: "/certification/nptel_quantum.png"
+    image: "/Portfolio_new/certification/nptel_quantum.png"
   },
   {
     title: "Joy of Computing Using Python",
     issuer: "NPTEL",
-    image: "/certification/nptel_python.png"
+    image: "/Portfolio_new/certification/nptel_python.png"
   },
   {
     title: "Introduction to Generative AI",
     issuer: "Google Cloud",
-    image: "/certification/google_cloud_genai.png"
+    image: "/Portfolio_new/certification/google_cloud_genai.png"
   },
   {
     title: "Python Programming",
     issuer: "Coursera",
-    image: "/certification/coursera_python.png"
+    image: "/Portfolio_new/certification/coursera_python.png"
   },
   {
     title: "Python Programming",
     issuer: "Infosys Springboard",
-    image: "/certification/infosys_python.png"
+    image: "/Portfolio_new/certification/infosys_python.png"
   },
   {
     title: "Frontend Web Development",
     issuer: "Udemy",
-    image: "/certification/udemy_frontend.png"
+    image: "/Portfolio_new/certification/udemy_frontend.png"
   },
 ];
 

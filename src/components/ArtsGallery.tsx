@@ -5,15 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Palette, X } from "lucide-react";
 
 const artworks = [
-  { src: "/art/virat.jpeg", title: "Virat Kohli", span: "md:col-span-2 md:row-span-2" },
-  { src: "/art/ratan tata.jpeg", title: "Ratan Tata", span: "md:col-span-1 md:row-span-1" },
-  { src: "/art/kgf.jpeg", title: "KGF", span: "md:col-span-1 md:row-span-2" },
-  { src: "/art/salaar.jpeg", title: "Salaar", span: "md:col-span-1 md:row-span-1" },
-  { src: "/art/kong.jpeg", title: "Kong", span: "md:col-span-2 md:row-span-1" },
-  { src: "/art/khelji.jpeg", title: "Khilji", span: "md:col-span-1 md:row-span-1" },
-  { src: "/art/jenny.jpeg", title: "Jenny", span: "md:col-span-1 md:row-span-1" },
-  { src: "/art/pubg.jpeg", title: "PUBG", span: "md:col-span-2 md:row-span-1" },
-  { src: "/art/gmr.jpeg", title: "GMR", span: "md:col-span-2 md:row-span-1" },
+  { src: "/Portfolio_new/Art/virat.jpeg", title: "Virat Kohli", span: "md:col-span-2 md:row-span-2" },
+  { src: "/Portfolio_new/Art/ratan tata.jpeg", title: "Ratan Tata", span: "md:col-span-1 md:row-span-1" },
+  { src: "/Portfolio_new/Art/kgf.jpeg", title: "KGF", span: "md:col-span-1 md:row-span-2" },
+  { src: "/Portfolio_new/Art/salaar.jpeg", title: "Salaar", span: "md:col-span-1 md:row-span-1" },
+  { src: "/Portfolio_new/Art/kong.jpeg", title: "Kong", span: "md:col-span-2 md:row-span-1" },
+  { src: "/Portfolio_new/Art/khelji.jpeg", title: "Khilji", span: "md:col-span-1 md:row-span-1" },
+  { src: "/Portfolio_new/Art/jenny.jpeg", title: "Jenny", span: "md:col-span-1 md:row-span-1" },
+  { src: "/Portfolio_new/Art/pubg.jpeg", title: "PUBG", span: "md:col-span-2 md:row-span-1" },
+  { src: "/Portfolio_new/Art/gmr.jpeg", title: "GMR", span: "md:col-span-2 md:row-span-1" },
 ];
 
 export function ArtsGallery() {

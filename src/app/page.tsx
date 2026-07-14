@@ -57,7 +57,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="/resume.pdf"
+                href="/Portfolio_new/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden sm:flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white/5 text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-md border border-white/10 shadow-lg"
@@ -79,7 +79,7 @@ export default function Home() {
         {/* We use z-20 so it sits IN FRONT of the typography (z-10) but BEHIND the floating UI elements (z-30) */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[500px] h-[75vh] flex justify-center items-end z-20 pointer-events-none">
           <img 
-            src="/dummy_hero.png" 
+            src="/Portfolio_new/dummy_hero.png" 
             alt="Abdul Yunus"
             className="w-auto h-full object-cover object-bottom drop-shadow-[0_-10px_30px_rgba(0,0,0,0.8)]"
           />
@@ -125,7 +125,7 @@ export default function Home() {
       <section className="w-full relative aspect-[4/3] md:aspect-[21/9] overflow-hidden z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/10 to-black z-10 pointer-events-none" />
         <img 
-          src="/godavari.png" 
+          src="/Portfolio_new/godavari.png" 
           alt="Godavari"
           className="w-full h-full object-cover"
         />

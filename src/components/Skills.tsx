@@ -35,7 +35,7 @@ export function Skills() {
       {/* Background Image with Dark Layer Gradients */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-screen pointer-events-none"
-        style={{ backgroundImage: "url('/stars.png')" }} 
+        style={{ backgroundImage: "url('/Portfolio_new/Portfolio_new/stars.png')" }} 
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />

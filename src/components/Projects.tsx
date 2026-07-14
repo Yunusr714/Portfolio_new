@@ -13,7 +13,7 @@ const projects = [
       "Worked as a Full Stack Developer in a team to build an AI-assisted quantum computing platform featuring quantum circuit simulation, state visualization, and educational tools for simplifying quantum computing concepts.",
       "Enabled students and researchers to design and test quantum algorithms in a simulated environment, while providing AI-powered explanations of results for improved learning and experimentation."
     ],
-    image: "/qubit_tracer.png" // Replace with actual image when provided
+    image: "/Portfolio_new/qubit_tracer.png" // Replace with actual image when provided
   },
   {
     title: "Stepcone 2025: College Fest Website",
@@ -24,7 +24,7 @@ const projects = [
       "Worked as a Full Stack Developer to build the event registration platform for both internal and external participants, integrating Razorpay payments, email confirmations, and dashboards for students and administrators.",
       "Successfully handled 3,800+ registrations, simplified event management, and registration tracking and reporting."
     ],
-    image: "/stepcone.png" // Replace with actual image when provided
+    image: "/Portfolio_new/stepcone.png" // Replace with actual image when provided
   }
 ];
 

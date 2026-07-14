@@ -8,21 +8,21 @@ const timelineData = [
     title: "B.Tech in Computer Science",
     institution: "GMRIT Deemed to be  University AP, Andhra Pradesh",
     description: "Focusing on Artificial Intelligence,Full Stack Development, and core computer science fundamentals.",
-    image: "/btech.png"
+    image: "/Portfolio_new/btech.png"
   },
   {
     date: "Nov 2021 - May 2023",
     title: "Intermediate (Class 12th)",
     institution: "RGUKT Rk Valley",
     description: "Board of Intermediate Education, Andhra Pradesh. Achieved 95.7%.",
-    image: "/inter.jpeg"
+    image: "/Portfolio_new/inter.jpeg"
   },
   {
     date: "June 2020 - April 2021",
     title: "Secondary School (Class 10th)",
     institution: "Montessori Public School",
     description: "Board of Secondary Education, Andhra Pradesh. Achieved 97.5%.",
-    image: "/school.png"
+    image: "/Portfolio_new/school.png"
   }
 ];
 
