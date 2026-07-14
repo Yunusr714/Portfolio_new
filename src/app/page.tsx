@@ -133,7 +133,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full border-t border-white/5 mt-auto z-10 py-8 px-6 text-center text-zinc-500 text-sm">
-        <p>© {new Date().getFullYear()} Portfolio. Built with Next.js and Tailwind CSS.</p>
+        <p>Designed & Developed by Yunus © {new Date().getFullYear()}</p>
       </footer>
     </main>
   );
