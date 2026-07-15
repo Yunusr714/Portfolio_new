@@ -61,7 +61,7 @@ export function Achievements() {
 
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
-      
+
       <div className="w-full max-w-6xl mx-auto px-6 mb-16 relative z-10 flex flex-col items-center text-center">
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">Achievements & Awards</h2>
         <p className="text-zinc-400 max-w-2xl">Highlights from hackathons, competitions, and technical showcases.</p>
@@ -79,20 +79,20 @@ export function Achievements() {
               className="w-[300px] md:w-[450px] flex-shrink-0 group relative overflow-hidden rounded-2xl bg-gradient-to-b from-white/10 to-transparent border border-white/5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),_0_8px_20px_rgba(0,0,0,0.5)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.6),_0_12px_24px_rgba(0,0,0,0.6)] backdrop-blur-2xl transition-all"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none" />
-              
+
               <div className="absolute top-4 right-4 z-20 bg-black/50 p-2 rounded-full backdrop-blur-md border border-white/10">
                 <Trophy className="w-4 h-4 text-yellow-500" />
               </div>
-              
+
               <div className="relative w-full aspect-video overflow-hidden">
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors z-10 duration-500" />
-                <img 
-                  src={item.image} 
+                <img
+                  src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover transform group-hover:scale-110 grayscale group-hover:grayscale-0 transition-all duration-700 ease-out"
                 />
               </div>
-              
+
               <div className="p-6 relative z-20 bg-gradient-to-t from-black via-black/90 to-transparent -mt-20 pt-20">
                 <h3 className="text-lg md:text-xl font-bold text-white mb-2 tracking-tight group-hover:text-blue-400 transition-colors line-clamp-1">
                   {item.title}

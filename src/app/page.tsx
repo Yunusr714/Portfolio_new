@@ -57,18 +57,18 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
+                href="#contact"
+                className="hidden sm:flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white/5 text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-md border border-white/10 shadow-lg"
+              >
+                Get in Touch
+              </a>
+              <a 
                 href="/Portfolio_new/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden sm:flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white/5 text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-md border border-white/10 shadow-lg"
-              >
-                View Resume
-              </a>
-              <a 
-                href="#contact"
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white text-black font-bold hover:bg-zinc-200 hover:scale-105 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]"
               >
-                <span>Get in Touch</span>
+                <span>View Resume</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </a>
             </div>
